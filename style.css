@@ -1,0 +1,211 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+  width: 83%;
+    max-width: 1600px;
+    background-color: #FFFFFF;
+}
+
+
+
+header nav .nav {
+    display: flex;
+    /* margin: 0 auto; */
+    align-items: center;
+    justify-content: center;
+}
+header nav .logo-nav img{
+    margin: 16px 0 16px 0;
+}
+
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+  }
+  .menu-nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    opacity: 90%;
+  }
+  
+  .btn  {
+    padding: 12.5px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 24px 0 24px 0;
+    color: #FFFFFF;
+  }
+
+  
+  .banner {
+    
+    text-align: center;
+    border: 1px solid blue;
+    /* width: 81%; */
+    /* display: flex; */
+
+  background-image: url(/B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+    
+  }
+.banner-content {
+  margin: 115.5px 120px 179.5px 120px;
+  /* border: 1px solid black;
+   */
+  max-width: 1350px;
+  
+ 
+  
+  
+}
+.banner-content h1 {
+  font-size: 72px;
+  line-height: ;
+  
+}
+.button1{
+  font-size: 16px;
+}
+.banner-titale{
+  max-width:770px ;
+}
+    
+.button1{
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  border: none;
+  color: #469165;
+  background-color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.banner-content h1 {
+  font-size: 72px;
+  color: #FFFFFF;
+
+}
+.banner-content #banner-h1{
+  color: #30B868;
+}
+.banner-content p {
+  height: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+.banner-content .banner-button , .banner-button1 {
+  padding: 16.5px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
+
+.banner-button , .banner-button1 {
+  margin-top: 32px;
+  margin-right: 16px;
+  
+}
+.button-a {
+  text-decoration:  none;
+  border: 1px solid #FFFFFF;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 16.5px 16px;
+  border-radius: 5px;
+}
+.skills {
+  padding-top: 50px ;
+  padding-bottom: 120px;
+  background: rgba(251, 251, 251, 1);
+}
+.skills .skills-text{
+  text-align: center;
+}
+.skills-text h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+.skills-text p {
+  color: #627382;
+}
+.skills-card {
+  text-align: center;
+  width: 322px;
+  /* box-shadow: 0 -6px 16px rgba(0,0,0,0.06),
+  -6px 0 16px rgba(0,0,0,0.06 ) ,
+  0px 0 16px rgba(0,0,0,0.06); */
+  background-color: #FFFFFF;
+  box-shadow: -0px -4px  8px -10px rgba(0, 0, 0, 0.315) ;
+  border-radius: 8px 8px 0 0;;
+  margin-top: 44px;
+  bo
+}
+.skills-card img {
+  width: 32px;
+  height: 32px;
+  margin: 69.5px 131px 16px 131px;
+  background-color: #F95555;
+  border-radius: 999px;
+  padding: 14px;
+
+}
+.skills-card h3 {
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600px;
+  margin: 0 24px;
+  margin-bottom: 16px;
+}
+.skills-card p {
+  color: #627382 ;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 24px 24px ;}
+  
+.skills-card-container  {
+  display: flex;
+  justify-content: space-around;
+}
+
+.brain{
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 8px #FFFFFF;
+  
+  border: 1px solid #FFFFFF;
+
+}
+
+.container-brain{
+max-width: 1600px;
+/* border: 1px solid; */
+background-color: #FFFFFF;
+padding: 120px;
+}
+.brain-container{
+  display: flex;
+  margin: 120px;
+  gap: 60px;
+}
+.brain-list ul li::before {
+  content: ;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+ 
+}
+ 
+ 

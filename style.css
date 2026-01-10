@@ -348,9 +348,10 @@ height: 20x;
   max-width: 1360px;
 }
   .line {
-  color: #E5E7EB;
-  height: 0;
-  opacity: 0.2;
+  color: #cab7b7;
+  height: 2px;
+  opacity: 0.05;
+  
 }
 
 .copyright-container {

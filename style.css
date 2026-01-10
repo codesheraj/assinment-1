@@ -68,13 +68,13 @@ header nav .logo-nav img{
 }
 .banner-content h1 {
   font-size: 72px;
-  line-height: ;
+  
   
 }
 .button1{
   font-size: 16px;
 }
-.banner-titale{
+.banner-titale {
   max-width:770px ;
 }
     
@@ -151,7 +151,7 @@ header nav .logo-nav img{
   box-shadow: -0px -4px  8px -10px rgba(0, 0, 0, 0.315) ;
   border-radius: 8px 8px 0 0;;
   margin-top: 44px;
-  bo
+  
 }
 .skills-card img {
   width: 32px;
@@ -199,13 +199,28 @@ padding: 120px;
   margin: 120px;
   gap: 60px;
 }
-.brain-list ul li::before {
-  content: ;
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: bold;
+
+.brain-list {
+  display: flex;
+  max-width: 700px;
+  align-items: center ;
+  gap: 10px;
+  margin-bottom: 16px;
+  
+}
+.brain-list .img {
+  max-width: 16px;
+  max-height: 16px;
+  margin: 0px ;
  
 }
+.brain-list .img img {
+  width: 16.5px;
+  height: 16.5px;
  
- 
+}
+
+.brain-list .text{
+  margin: 0px;
+  font-size: 16px;
+}

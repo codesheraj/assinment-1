@@ -3,8 +3,8 @@
 }
 
 body {
-  width: 83%;
-    max-width: 1600px;
+  width: 100%;
+  max-width: 1600px; 
     background-color: #FFFFFF;
 }
 
@@ -177,27 +177,61 @@ header nav .logo-nav img{
   
 .skills-card-container  {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 24px;
+  margin:0 120px ;
+  
 }
 
 .brain{
-  background-color: rgba(255, 255, 255, 1);
+  background-color:rgb(255, 255, 255);
   box-shadow: 0 0 8px #FFFFFF;
   
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 
 }
 
 .container-brain{
-max-width: 1600px;
-/* border: 1px solid; */
-background-color: #FFFFFF;
+/* max-width: 1600px;
 padding: 120px;
+background-color: #30B868; */
 }
 .brain-container{
   display: flex;
-  margin: 120px;
   gap: 60px;
+  background-color: aqua;
+  margin: 120px;
+  
+  width: 1360px;
+  align-items: center ;
+  justify-content: c;
+  /* margin-top: 120px; */
+}
+.brain-photo {
+   width: 600px;
+  height: 600px; 
+ 
+}
+.brain-title-p {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #469165;
+  margin-bottom: 16px;
+}
+.brain-title-h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #001931;
+  line-height: 50px;
+}
+
+.brain-text-p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  margin-right: 300px;
 }
 
 .brain-list {

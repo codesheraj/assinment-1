@@ -51,7 +51,7 @@ header nav .logo-nav img{
     /* width: 81%; */
     /* display: flex; */
 
-  background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  background-image: url(./assets/hero-bg.png);
   background-position: center;
   background-size: cover;
     
@@ -269,6 +269,7 @@ background-color: #30B868; */
   color: #001931;
   padding-top: 80px;
   padding-bottom: 16px;
+  background-color: #F7F6F2;
 
 }
 .join-container-text {
